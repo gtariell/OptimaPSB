@@ -1,0 +1,122 @@
+a {
+  text-decoration: none;
+  color: #eceef5;
+}
+
+a:hover,
+a.active {
+  text-decoration: none;
+  color: #3a5165 !important;
+}
+
+.text-muted {
+  color: #929292 !important;
+}
+
+.underline {
+  text-decoration: underline !important;
+}
+
+.circular--landscape {
+  display: inline-block;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.circular--landscape img {
+  width: auto;
+  height: 100%;
+  margin-left: -25px;
+}
+
+.circular--portrait {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.circular--portrait img {
+  width: 100%;
+  height: auto;
+  margin-top: -25px;
+}
+
+.ms
+  ~ .select2-container--classic
+  .select2-selection--multiple
+  .select2-selection__choice {
+  background-color: #5a8fcc !important;
+}
+
+.mst
+  ~ .select2-container--classic
+  .select2-selection--multiple
+  .select2-selection__choice {
+  background-color: #d93632 !important;
+}
+
+.select2-container--classic
+  .select2-selection--multiple
+  .select2-selection__choice {
+  border-radius: 10px;
+  color: white;
+}
+
+.select2-container--classic
+  .select2-selection--multiple
+  .select2-selection__choice__display {
+  padding-left: 5px;
+  padding-right: 2px;
+}
+
+.select2-container--classic
+  .select2-selection--multiple
+  .select2-selection__choice__remove {
+  float: right;
+  color: white;
+}
+
+.select2-container--classic .select2-selection--multiple {
+  border: none;
+}
+
+
+.select2-container--classic .select2-selection--multiple {
+    background-color: transparent!important;
+    border: none!important;
+}
+
+.select2-container--classic .select2-search--inline .select2-search__field {
+	background-color: transparent!important;
+}
+
+.swal2-radio {
+	flex-direction: column;
+}
+.swal2-radio label {
+	border: 0;
+    border-radius: .25em;
+    background: initial;
+    border: 1px solid #2778c4;
+    color: #2778c4;
+    font-size: 1.0625em;
+	cursor: pointer;
+	padding: .625em 1.1em;
+	box-shadow: none;
+    font-weight: 500;
+	margin-bottom: 1em!important;
+}
+
+.swal2-radio label ~ input:checked {
+	background-color: #2778c4;
+	color: #fff;
+}
+
+.swal2-radio input {
+    /* display: none; */
+}

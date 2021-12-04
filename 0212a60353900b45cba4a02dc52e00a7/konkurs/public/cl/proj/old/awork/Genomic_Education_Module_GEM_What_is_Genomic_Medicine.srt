@@ -1,0 +1,265 @@
+1
+00:00:00,290 --> 00:00:04,500
+Welcome to the genomic medicine GEM
+produced by the division of genomic
+
+2
+00:00:04,500 --> 00:00:10,259
+medicine at UC Davis. This module will
+focus on what genomic medicine is, how it
+
+3
+00:00:10,259 --> 00:00:13,888
+came to be and a few of the ways that
+genomic medicine is impacting the world
+
+4
+00:00:13,888 --> 00:00:20,549
+we live in. The NHGRI defines genomic
+medicine as "An emerging medical
+
+5
+00:00:20,550 --> 00:00:25,140
+discipline that involves using genomic
+information about an individual as part
+
+6
+00:00:25,140 --> 00:00:28,589
+of their clinical care and the health
+outcomes and policy implications of
+
+7
+00:00:28,589 --> 00:00:32,308
+that clinical use".  Let's take a step back
+for a moment and reflect on how the
+
+8
+00:00:32,308 --> 00:00:36,269
+field of genomic medicine came to be,
+you've probably heard of the Human
+
+9
+00:00:36,270 --> 00:00:40,890
+Genome Project formerly launched in 1990,
+the human genome projects goal was to
+
+10
+00:00:40,890 --> 00:00:45,090
+determine the sequence of base pairs
+that comprise human DNA and to map all
+
+11
+00:00:45,090 --> 00:00:49,079
+the genes of the human genome. The
+project was determined complete in 2003,
+
+12
+00:00:49,079 --> 00:00:53,520
+two years ahead of schedule and it cost
+around three billion dollars. At the time
+
+13
+00:00:53,520 --> 00:00:57,690
+the project was launched, the belief was
+that having the sequence of all 3.3
+
+14
+00:00:57,689 --> 00:01:02,099
+billion nucleotides in the human genome
+would allow us to understand diseases
+
+15
+00:01:02,100 --> 00:01:07,739
+such as cancer, diabetes, viruses and
+improve in fields such as forensics,
+
+16
+00:01:07,739 --> 00:01:12,030
+anthropology and agriculture. While it's
+true that the completion of the human
+
+17
+00:01:12,030 --> 00:01:15,239
+genome project was a huge step in the
+right direction for all these fields,
+
+18
+00:01:15,239 --> 00:01:18,629
+there's still considerable work to be
+done to understand and interpret the
+
+19
+00:01:18,629 --> 00:01:23,938
+genome; for example, one current task at
+hand is to identify the genetic variants
+
+20
+00:01:23,938 --> 00:01:27,719
+that increase the risk for human
+diseases, genomic medicine then strives
+
+21
+00:01:27,719 --> 00:01:31,618
+to utilize genomic information to help
+make clinical recommendations to improve
+
+22
+00:01:31,618 --> 00:01:36,420
+health outcomes. Already genomic medicine
+is making a tremendous impact in the
+
+23
+00:01:36,420 --> 00:01:41,280
+fields of oncology, pharmacology,
+preconception and prenatal, pediatrics
+
+24
+00:01:41,280 --> 00:01:46,560
+rare and undiagnosed diseases, infectious
+diseases and many more. In the past few
+
+25
+00:01:46,560 --> 00:01:51,090
+years there has been a growing push for
+personalized or precision medicine to
+
+26
+00:01:51,090 --> 00:01:55,640
+reach the clinic, where specific
+individuals unique genome, epigenome,
+
+27
+00:01:55,640 --> 00:02:01,200
+environmental exposure, family history
+and other data can be assessed to tailor
+
+28
+00:02:01,200 --> 00:02:04,680
+a clinical recommendation to that
+patient. Some specific examples of
+
+29
+00:02:04,680 --> 00:02:08,969
+applications of precision medicine
+include pharmacogenomics which uses
+
+30
+00:02:08,969 --> 00:02:12,099
+genomic information to ensure that
+patients are getting the right dose
+
+31
+00:02:12,099 --> 00:02:16,359
+of the right drug, cancer and
+immunotherapy treatments which target
+
+32
+00:02:16,360 --> 00:02:20,200
+specific molecular markers or the
+patient's immune system to enhance its
+
+33
+00:02:20,199 --> 00:02:24,459
+cancer fighting capabilities and
+personalized lifestyle plans which
+
+34
+00:02:24,460 --> 00:02:28,120
+utilize genomic information to make
+fitness and dietary recommendations
+
+35
+00:02:28,120 --> 00:02:32,289
+specific to an individual. Other advances
+actively being studied and tested
+
+36
+00:02:32,289 --> 00:02:36,639
+include stem-cell therapy and
+regenerative medicine, gene editing
+
+37
+00:02:36,639 --> 00:02:40,989
+techniques like CRISPR/CAS9 which
+allows permanent modification of genes
+
+38
+00:02:40,990 --> 00:02:46,120
+within organisms, base editing or
+chemical surgery which like CRISPR has
+
+39
+00:02:46,120 --> 00:02:50,110
+the potential to alter bases in the
+genome of an organism, all of these
+
+40
+00:02:50,110 --> 00:02:53,320
+methodologies just mentioned are still
+emerging and will continue to improve
+
+41
+00:02:53,319 --> 00:02:57,549
+over time. The field of genomic medicine
+is still emerging and very quickly
+
+42
+00:02:57,550 --> 00:03:02,230
+advancing many academic and research
+institutions such as UC Davis now have
+
+43
+00:03:02,229 --> 00:03:06,939
+their own genomic medicine groups. Some
+institutions like UC Davis also have or
+
+44
+00:03:06,939 --> 00:03:10,689
+are developing divisions of precision
+medicine or precision Diagnostics,
+
+45
+00:03:10,689 --> 00:03:14,560
+more of these are likely to appear in
+the near future. The division of genomic
+
+46
+00:03:14,560 --> 00:03:18,969
+medicine at UC Davis aims to combine
+clinical information with genomic
+
+47
+00:03:18,969 --> 00:03:23,409
+information to make recommendations and
+improve health outcomes. The team of
+
+48
+00:03:23,409 --> 00:03:27,389
+clinical providers consists of medical
+geneticists, genetic counselors,
+
+49
+00:03:27,389 --> 00:03:31,899
+pediatricians, social workers and
+dieticians. If you would like to learn
+
+50
+00:03:31,900 --> 00:03:35,650
+more about genomic medicine or the
+division of genomic medicine at UC Davis,
+
+51
+00:03:35,650 --> 00:03:39,550
+please feel free to get in touch. You can
+visit our clinic at the MIND Institute
+
+52
+00:03:39,550 --> 00:03:43,150
+on the medical campus in Sacramento,
+visit our website or call us with
+
+53
+00:03:43,150 --> 00:03:47,280
+questions or to speak with a genetic
+counselor.
+

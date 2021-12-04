@@ -1,0 +1,153 @@
+.tag {
+  background: $primary;
+  border-radius: 6px;
+  padding: 2px;
+  font-style: normal;
+  color: $white;
+  white-space: nowrap;
+}
+
+.input-overlay {
+  display: inline-block;
+  padding: 16px;
+  margin-top: -16px;
+  background: $black;
+  border-radius: 19px;
+
+  box-shadow: $box-shadow;
+}
+
+.plate {
+
+  width: 454px;
+
+  @include media-breakpoint-down(md) {
+    width: 100%;
+  }
+
+  pre {
+    //padding: $card-spacer-y/2 $card-spacer-x/2;
+  }
+
+  textarea {
+    @include media-breakpoint-up(md) {
+      min-height: 483px;
+    }
+    background-color: $black;
+    color: white;
+    resize: none;
+
+    border-radius: 0;//$card-border-radius;
+    padding: $card-spacer-y/2 $card-spacer-x/2;
+
+    @include hover-focus-active() {
+      @include media-breakpoint-up(md) {
+        min-height: 483px;
+      }
+      background-color: $black;
+      color: white;
+    }
+  }
+}
+.nice-select {
+  background-color: $dark;
+  border-color: $dark;
+  color: white;
+  line-height: 4;
+  text-align: center !important;
+
+  &.open {
+    //line-height: 4;
+  }
+
+  .option {
+    background-color: $dark !important;
+  }
+
+  .list:hover .option:not(:hover) {
+    background-color: $dark !important;
+  }
+
+  .option:hover, .option.focus, .option.selected.focus {
+    background-color: $primary!important;
+  }
+
+  .list {
+    //border-radius: 0 0 11px 11px;
+
+
+    > li {
+      line-height: 2;
+    }
+  }
+}
+
+.btn {
+
+  text-transform: uppercase;
+
+  @include hover-focus-active() {
+    outline: none;
+    box-shadow: none!important;
+    background-color: $primary;
+  }
+
+}
+
+.custom-file-input {
+  cursor: if($enable-pointer-cursor-for-buttons, pointer, null);
+}
+
+.custom-file {
+  @include hover-focus-active() {
+    .custom-file-label, .custom-file-label::after {
+      outline: none;
+      box-shadow: none!important;
+      background-color: $primary;
+    }
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .card {
+    height: 567px;
+  }
+}
+
+.card-body {
+
+  padding: $card-spacer-y/2 $card-spacer-x/2;
+
+  @include media-breakpoint-down(md) {
+    padding: 19px;
+  }
+}
+
+div,textarea,body {
+  &::-webkit-scrollbar {
+    width: 4px;
+
+    &-track {
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+      background: $dark;
+    }
+
+    &-thumb {
+      //background-color: $black;
+      //outline: 1px solid $dark;
+      background: #FFFFFF;
+      border-radius: 2px;
+      position: relative;
+
+      &::after {
+        content: " ";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: -1px;
+        right: -1px;
+        z-index: 100;
+      }
+    }
+  }
+}

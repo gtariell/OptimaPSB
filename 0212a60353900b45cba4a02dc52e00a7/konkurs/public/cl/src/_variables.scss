@@ -1,0 +1,119 @@
+// Body
+$body-bg: #171717;
+$body-color: #FFFFFF;
+
+$line-height-base: 2;
+
+// Typography
+$font-family-base: Montserrat, sans-serif;
+$headings-font-family: Montserrat, sans-serif;
+$headings-font-weight: bold;
+$font-size-base: .75rem;
+
+$h1-font-size: 2.25rem;
+$h3-font-size: 1.625rem;
+
+$small-font-size: .77778em;
+
+$enable-responsive-font-sizes: true;
+$rfs-breakpoint: 1230px;
+
+// Icons
+//$fa-font-path: "../fonts/fontawesome";
+
+// Colors
+$orange: #eb6f2d; //#eb6f2d;
+$blue: #0085FF;
+$gray: #9fa1a6;
+
+$text-muted: $gray;
+
+$primary: $blue;
+$secondary: $orange;
+$dark: #444444;
+$black: #171717;
+$white: #ffffff;
+
+$theme-colors: (
+    "default": #f4f4f4
+);
+
+$grid-breakpoints: (
+        xs: 0,
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        xl: 1230px
+);
+$container-max-widths: (
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        xl: 1230px
+);
+
+//$component-active-bg: $secondary;
+//$custom-control-indicator-checked-border-color: $secondary;
+//$custom-control-indicator-checked-bg: $secondary;
+
+//$nav-tabs-border-width: 2px;
+//$nav-tabs-link-active-color: $dark;
+//$nav-tabs-link-active-bg: transparent;
+//$nav-tabs-link-hover-border-color:  $gray-200 $gray-200 $nav-tabs-border-color !default;
+//$nav-tabs-link-active-color: $dark;
+//$nav-tabs-link-active-border-color: transparent transparent $secondary;
+
+$spacer: 0.9375rem*2;
+
+$spacers: (
+        0: 0,
+        1: 10px,
+        15: 15px,
+        2: 20px,
+        25: 25px,
+        3: 30px,
+        35: 35px,
+        4: 40px,
+        45: 45px,
+        5: 50px,
+);
+
+$grid-gutter-width: 40px;
+
+
+// Cards
+$card-spacer-y:                     45px;
+$card-spacer-x:                     52px;
+$card-border-radius:                43px;
+$card-bg:                           $black;
+
+$enable-shadows: true;
+
+$box-shadow:                10px 10px 25px rgba(40, 40, 40, 0.4), -10px -10px 25px rgba(11, 10, 10, 0.8);
+$btn-box-shadow: none;
+
+$input-btn-padding-y: .875rem;
+$input-btn-padding-x: 1.25rem;
+$btn-border-radius: 11px;
+$input-border-radius: $btn-border-radius;
+
+//$input-btn-border-width: 16px;
+//$input-border-color: $black;
+
+$custom-file-bg: $dark;
+$input-group-addon-bg: $dark;
+$custom-file-color: $white;
+$input-border-width: 0;
+$custom-file-text: (
+  en: url("data:image/svg+xml;utf8,<svg width='26' height='18' viewBox='0 0 26 18' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M25.4643 2.81657C25.1647 1.7152 24.2865 0.847011 23.1728 0.550447C21.1382 0 12.9997 0 12.9997 0C12.9997 0 4.86152 0 2.82693 0.529578C1.73466 0.825828 0.835036 1.71536 0.535426 2.81657C0 4.82818 0 9 0 9C0 9 0 13.1928 0.535426 15.1834C0.835353 16.2846 1.71324 17.1528 2.82709 17.4494C4.88294 18 13 18 13 18C13 18 21.1382 18 23.1728 17.4704C24.2867 17.174 25.1647 16.3058 25.4646 15.2046C25.9999 13.1928 25.9999 9.02118 25.9999 9.02118C25.9999 9.02118 26.0213 4.82818 25.4643 2.81657ZM10.4086 12.8541V5.14593L17.1762 9L10.4086 12.8541Z' fill='white'/></svg>")
+);
+
+//$progress-height:                   1rem !default;
+//$progress-font-size:                $font-size-base * .75 !default;
+$progress-bg:                       $dark;
+$progress-border-radius:            19px;
+//$progress-box-shadow:               inset 0 .1rem .1rem rgba($black, .1) !default;
+//$progress-bar-color:                $white !default;
+//$progress-bar-bg:                   theme-color("primary") !default;
+//$progress-bar-animation-timing:     1s linear infinite !default;
+//$progress-bar-transition:           width .6s ease !default;

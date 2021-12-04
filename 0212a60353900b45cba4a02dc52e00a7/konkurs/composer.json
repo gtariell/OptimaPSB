@@ -1,0 +1,20 @@
+{
+    "name": "fw/fw",
+    "require": {
+        "monolog/monolog": "^1.23",
+        "phpmailer/phpmailer": "^5.2",
+        "vlucas/valitron": "^1.4",
+        "filp/whoops": "^2.14",
+        "abul/jira-php-client": "0.1@dev",
+        "lesstif/php-jira-rest-client": "^2.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "fw\\": "vendor/fw",
+            "app\\": "app"
+        }
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.4"
+    }
+}

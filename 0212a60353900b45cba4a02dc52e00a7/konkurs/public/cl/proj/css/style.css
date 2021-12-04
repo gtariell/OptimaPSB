@@ -1,0 +1,93 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,500,80);
+
+html {
+    /*overflow-y: hidden;*/
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #171717;
+    /*height:100vh;*/
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*align-items: center;*/
+    color: #ECEEF5;
+    font-size: .725rem;
+}
+
+pre, a {
+   color: #ECEEF5; 
+}
+
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 127px;
+    left: -13px;
+    bottom: 0;
+    background: linear-gradient(180deg, rgba(23, 23, 23, 0) 9.45%, #171717 88.71%);
+}
+
+#content::-webkit-scrollbar {
+    width: 7px;
+    height: 311px;
+}
+
+#content::-webkit-scrollbar-track {
+    background: linear-gradient(3.18deg, #2C333A -23.31%, #1C1E22 59.29%);
+    box-shadow: inset -2px -2px 5px rgba(255, 255, 255, 0.06), inset 2px 3px 8px #070709;
+    border-radius: 31px;
+}
+
+#content::-webkit-scrollbar-thumb {
+    background: #0085FF;
+    box-shadow: -1px 2px 2px rgba(15, 18, 22, 0.6), inset 0px 0px 4px rgba(11, 15, 18, 0.22), inset 0px -2px 1px #0E1216;
+    backdrop-filter: blur(28px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 26px;
+}
+
+
+
+.tag { color:white; padding: 2px; border-radius: 2px; background: grey; }
+/*.I-LAW { background: red }*/
+/*.B-LAW { background: blue }*/
+/*.B-LANGUAGE { background: green }*/
+/*.B-CARDINAL { background: orange }*/
+/*.SKILL { background: white; color: black; border: 1px solid black; }*/
+/*.SKILL { background: black; }*/
+.emoj {
+    /* overflow: hidden; */
+    /* height: 110px; */
+    padding-top: 40px;
+}
+
+.emoj a {
+    transition: transform .2s ease-out;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.emoj img {
+    width: 70%;
+}
+
+.emoj a:hover {
+    transform: translate(0, -20px);
+}
+
+.emoj a>span {
+    position: absolute;
+    display: block;
+    bottom: -80px;
+    text-align: center;
+    visibility: hidden;
+    font-size: 1.6em;
+    line-height: 1;
+}
+
+.emoj a:hover>span {
+    visibility: visible;
+}
